@@ -1,0 +1,123 @@
+/*Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+}
+
+/*Entire container*/
+.container-fluid{
+    min-height: 100vh;
+    background-color: #A9C9FF;
+    background-image: linear-gradient(135deg, hsl(18, 69%, 45%)
+    35%, #b90947 59%);
+    padding:40px 20px;
+    
+}
+
+/*Glassmorphism style(background)*/
+.container{
+    min-height: 120vh;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.7px);
+    -webkit-backdrop-filter: blur(2.7px);
+    border: 1px solid rgba(255, 255, 255, 0.61);
+
+}
+
+/*Todolist header*/
+.todo-text{
+    font-weight:bolder;
+    font-size: 50px;
+    padding-left: 20px;
+    background:linear-gradient(140deg, hsla(18, 93%, 39%, 0.678)
+    30%, hsla(339, 92%, 25%, 0.925) 59%); 
+    border-radius: 26px;
+    cursor:pointer;
+   
+}
+
+/*Glassmorphism style(Task)*/
+.task-container{
+    background: rgba(229, 202, 202, 0);
+    border-radius: 36px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+    border: 1px solid rgba(229, 202, 202, 1);
+    min-height:10vh;
+    max-width:50vw;
+    margin-top:10px;
+    
+}
+
+/*Input field*/
+.task{
+    border:none;
+    outline:none; 
+    padding-right: 1.5px;
+    
+}
+
+/*Input to add the task*/
+.text-box{
+    background-color: transparent;
+    outline: none;
+    border:none;
+    outline-style: none;
+    padding-left: 25px;
+    word-break:break-word;
+    overflow-wrap: break-word;
+}
+
+/*ADD button*/
+.add-btn{
+    background-image: linear-gradient(140deg, hsla(18, 93%, 39%, 0.678)
+    30%, hsla(339, 92%, 25%, 0.925) 59%);
+    font-size:25px;
+    font-weight:bold;
+    border:#BB4E75;
+    border-radius: 36px;
+    padding-right: 50px;
+    width:250px; 
+}
+
+/*Task list container for each task*/
+.tasklist-container{
+    background: rgba(229, 202, 202, 0);
+    border-radius: 36px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+    border: 1px solid rgba(229, 202, 202, 1);
+    min-height:10vh;
+    width:45vw;
+    margin-top:24px;
+    display:inline-block;
+    padding-right: 20px;
+    
+}
+
+/*Todo list text*/
+#todoList{
+   font-size: 48px;
+   padding-left:120px;
+   padding: 20px; 
+   margin: 0 auto;
+   max-width: 600px;
+   word-wrap: break-word;
+}
+
+/*Tick & Trash Icons*/
+#tick, #trash{
+    color:#bb3d07;
+    float: right;
+    padding-right:30px;
+    padding-top: 10px;
+    cursor:pointer;
+    color: #7a052eec;
+}
+
